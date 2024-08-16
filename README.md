@@ -15,4 +15,7 @@
 
 **Provide a Persistence Context using persistence.xml**
 
+*we need to provide dialect based on the datatype used*
+* property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"*
+* property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL95Dialect" *
 

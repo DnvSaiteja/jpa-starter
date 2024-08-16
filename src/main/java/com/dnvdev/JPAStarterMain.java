@@ -13,7 +13,7 @@ public class JPAStarterMain {
         employee.setId(1);
         employee.setName("Foo Bar");
 
-        EntityManagerFactory entityManagerFactory =Persistence.createEntityManagerFactory("myApp");
+        EntityManagerFactory entityManagerFactory =Persistence.createEntityManagerFactory("myAppPG");
         EntityManager entityManager=entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
         transaction.begin();
